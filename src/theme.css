@@ -1,0 +1,49 @@
+:root{
+  --purple:#7b2cbf;
+  --pink:#ff4fa3;
+  --yellow:#ffd60a;
+  --gray:#6c757d;
+}
+
+.app-bg{
+  min-height:100vh;
+  padding:40px;
+}
+
+.card-theme{
+  border:none;
+  border-radius:15px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+.btn-purple{
+  background:var(--purple);
+  color:white;
+}
+
+.btn-purple:hover{
+  background:#5a189a;
+}
+
+.btn-pink{
+  background:var(--pink);
+  color:white;
+}
+
+.btn-yellow{
+  background:var(--yellow);
+  color:black;
+}
+
+.table-theme thead{
+  background:var(--purple);
+  color:white;
+}
+
+.btn:focus{
+  box-shadow:none;
+}
+
+.btn:active{
+  transform:scale(0.98);
+}
